@@ -15,5 +15,6 @@ namespace EF_Modeling.Models
         public DateTime HireDate { get; set; }
         public Area Area { get; set; }
         public Department Department { get; set; }
+        public List<Visit> Visits { get; set; }
     }
 }

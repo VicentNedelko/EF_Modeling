@@ -12,6 +12,8 @@ namespace EF_Modeling.Models
         public int? Age { get; set; }
         public DateTime BDate { get; set; }
         public Address Address { get; set; }
+        public Area Area { get; set; }
+        public List<Visit> Visits { get; set; }
 
     }
 }
